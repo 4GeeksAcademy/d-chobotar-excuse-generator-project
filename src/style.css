@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #2f3e4e !important;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.cutive-mono-regular {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.terminal {
+  background-color: #1f2132 !important;
+  color: lime;
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  outline: none;
+}
+
+#terminalInput {
+  background-color: #2f3e4e;
+  border-radius: 0 0 3% 3%;
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  color: lime;
+}
+
+.highlight {
+  text-shadow: 1px 1px 4px lime;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
